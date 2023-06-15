@@ -1,0 +1,166 @@
+header #nav1 {
+  /* margin-bottom: 35px; */
+  /* z-index: 3; */
+}
+/* ---------------start carousel------------------ */
+.carousel-inner img {
+  height: 85vh !important;
+}
+
+#carouselExampleCaptions {
+  margin-top: 130px !important;
+}
+
+/*  add overlay above carousel */
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel-caption {
+  margin-bottom: 150px;
+}
+.carousel-caption h2 {
+  line-height: 1.7;
+
+  font-weight: 900;
+  font-size: 40px;
+}
+.carousel-caption p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.carousel-indicators {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  margin-bottom: 210px;
+  left: 1100px;
+}
+.carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  margin-right: 0px;
+  margin-left: 10px;
+}
+/* ---------------end carousel------------------ */
+
+/* ---------------start About Us------------------ */
+.about_sec {
+  position: relative;
+}
+.all_title {
+  text-align: center;
+}
+.sec_title {
+  position: relative;
+}
+.all_title > h2 ::before {
+  width: 70px;
+  height: 2px;
+  background-color: #0c65ed;
+  right: 500px;
+  top: 25px;
+  position: absolute;
+  content: "";
+}
+.all_title > h2 ::after {
+  width: 70px;
+  height: 2px;
+  background-color: #0c65ed;
+  right: 790px;
+  top: 25px;
+  position: absolute;
+  content: "";
+}
+
+/* don't work  */
+.all_title > h2 > span ::before {
+  width: 40px;
+  height: 2px;
+  background-color: #0c65ed;
+  left: -40px;
+  top: 15px;
+  position: absolute;
+  content: "";
+}
+.all_title > h2 > span ::after {
+  width: 40px;
+  height: 2px;
+  background-color: #0c65ed;
+  left: -40px;
+  top: 15px;
+  position: absolute;
+  content: "";
+}
+
+.detail-box p {
+  font-size: 15px;
+}
+.detail-box {
+  z-index: 2;
+  position: absolute;
+  max-width: 340px;
+  top: 100px;
+  background-color: #fff;
+  padding: 5px 20px;
+  left: 90px;
+}
+.detail-content {
+  border-left: thin solid #ccc;
+  margin: 3px 0;
+}
+/* ---------------end About Us------------------ */
+/* ---------------start services------------------ */
+.services_sec {
+  background-image: url(/img/SERVICES.jpg);
+  height: 100vh;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.services_sec::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.grid_services_sec {
+  width: 240px;
+  height: 240px;
+}
+/* ---------------end services------------------ */
+
+/* -------------------------start  creative---------------------  */
+
+.creative_sec_body img {
+  /* height: 350px; */
+}
+
+/* -------------------------end creative---------------------  */
+/* -------------------------start  blog---------------------  */
+.blog_sec img:hover {
+  scale: 1.2;
+  transition: 2s;
+  transform: rotate(15deg);
+}
+/* -------------------------end  blog---------------------  */

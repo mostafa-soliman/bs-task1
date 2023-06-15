@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-------------------------start nav--------------------- -->
+    <header class="container-fluid fixed-top">
+      <nav id="nav1" class="bg-primary d-none row d-xl-flex fs-4">
+        <div class="col-7">
+          <i class="fa-brands fa-facebook-f me-4 text-light"></i>
+          <i class="fa-brands fa-facebook-f me-4 text-light"></i>
+          <i class="fa-brands fa-facebook-f me-4 text-light"></i>
+          <i class="fa-brands fa-facebook-f me-4 text-light"></i>
+          <i
+            class="fa-brands fa-facebook-f me-4 text-light border-end pe-lg-4"
+          ></i>
+          <i class="fa-solid fa-location-dot me-4 text-light"></i>
+          <span class="text-light">267 Park Avenue New York, NY 90210</span>
+        </div>
+        <div class="col-5">
+          <i class="fa-regular fa-envelope me-4 text-light"></i>
+          <span class="text-light border-end pe-lg-5">Quick Email</span>
+          <i class="fa-solid fa-phone-volume me-4 text-light"></i>
+          <span class="text-light">+1 (409) 987–5874</span>
+        </div>
+      </nav>
+
+      <nav class="navbar navbar-light navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                Offcanvas
+              </h5>
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="offcanvasNavbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    HEADERS
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="offcanvasNavbarDropdown"
+                  >
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="offcanvasNavbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    BLOG POST
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="offcanvasNavbarDropdown"
+                  >
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="offcanvasNavbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    BLOG POST
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="offcanvasNavbarDropdown"
+                  >
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="offcanvasNavbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    FEATURES
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="offcanvasNavbarDropdown"
+                  >
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="offcanvasNavbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    PAGES
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="offcanvasNavbarDropdown"
+                  >
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-------------------------end nav--------------------- -->
+    <!-------------------------end carousel--------------------- -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/1.webp" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>What You Do Today For Peoples1</h2>
+            <p>Some representative placeholder content for the first slide.</p>
+            <a href="#" class="btn btn-lg btn-primary rounded-pill active m-2">
+              get start now
+            </a>
+            <a href="#" class="btn btn-lg btn-outline-light rounded-pill m-2">
+              contact us
+            </a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/2.webp" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>What You Do Today For Peoples2</h2>
+            <p>Some representative placeholder content for the second slide.</p>
+            <a href="#" class="btn btn-lg btn-primary rounded-pill active m-2">
+              get start now
+            </a>
+            <a href="#" class="btn btn-lg btn-outline-light rounded-pill m-2">
+              contact us
+            </a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/3.webp" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>What You Do Today For Peoples3</h2>
+            <p>Some representative placeholder content for the third slide.</p>
+            <a href="#" class="btn btn-lg btn-primary rounded-pill active m-2">
+              get start now
+            </a>
+            <a href="#" class="btn btn-lg btn-outline-light rounded-pill m-2">
+              contact us
+            </a>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-------------------------end carousel--------------------- -->
+    <!-------------------------start About--------------------- -->
+    <div class="about_sec">
+      <div class="all_title">
+        <h2 class="sec_title"><span>About Us</span></h2>
+        <p>About Us</p>
+      </div>
+      <div class="d-flex justify-content-center">
+        <div class="detail-box col-5 border fs-5">
+          <div>
+            <ul>
+              <li class="row">
+                <i class="fa-thin fa-bullhorn col-3"></i>
+                <div class="detail-content col-8">
+                  <h5>markating</h5>
+                  <p>Lorem ipsum dolor sit amet, Aenea.</p>
+                </div>
+              </li>
+              <li class="row">
+                <i class="fa-thin fa-bullhorn col-3"></i>
+                <div class="detail-content col-8">
+                  <h5>great usability</h5>
+                  <p>Lorem ipsum dolor sit amet, Aenea.</p>
+                </div>
+              </li>
+              <li class="row">
+                <i class="fa-thin fa-bullhorn col-3"></i>
+                <div class="detail-content col-8">
+                  <h5>unique design</h5>
+                  <p>Lorem ipsum dolor sit amet, Aenea.</p>
+                </div>
+              </li>
+              <li class="row">
+                <i class="fa-thin fa-bullhorn col-3"></i>
+                <div class="detail-content col-8">
+                  <h5>quick &amp; powerful</h5>
+                  <p>Lorem ipsum dolor sit amet, Aenea. elit.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- start card -->
+        <div class="card mb-3 col-9">
+          <div class="row g-0">
+            <div class="col-5">
+              <img
+                style="height: 100%"
+                src="https://i.pinimg.com/736x/5b/bc/30/5bbc305d5b390c2a40e64f473690412b.jpg"
+                class="img-fluid rounded-start d-block"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer. Lorem, ipsum dolor sit amet consectetur adipisicing
+                  elit. Labore ipsam iste eum . longer. Lorem, ipsum dolor sit
+                  amet consectetur adipisicing elit. Labore . lead-in to
+                  additional content. This content is a little bit longer.
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Labore ipsam iste eum . longer. Lorem, ipsum dolor sit amet
+                  consectetur adipisicing elit. Labore . lead-in to additional
+                  content. This content is a little bit longer. Lorem, ipsum
+                  dolor sit amet consectetur adipisicing elit. Labore ipsam iste
+                  eum . longer. Lorem, ipsum dolor sit amet consectetur
+                  adipisicing elit. Labore . lead-in to additional content. This
+                  content is a little bit longer. Lorem, ipsum dolor sit amet
+                  consectetur adipisicing elit. Labore ipsam iste eum . longer.
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Labore .
+                </p>
+                <p class="card-text">
+                  <button class="btn btn-primary rounded-pill">
+                    Learn More
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end card -->
+      </div>
+    </div>
+    <!-------------------------end About--------------------- -->
+    <!------------------------START SERVICES---------------------- -->
+    <div class="services_sec">
+      <div class="all_title row d-flex justify-content-center">
+        <h2 class="sec_title text-light col-12"><span>Our Services</span></h2>
+        <p class="text-light col-7">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor. incididunt ut labore et dolore. Lorem ipsum dolor sit
+          amet, consectetur adipisicing elit, sed do eiusm dipisicing elit, sed
+          do eiusmod.
+        </p>
+      </div>
+      <div class="grid_services ">
+        <div class="row mt-2 d-flex justify-content-around">
+          <div class="grid_services_sec col-4 border">
+            <div class="grid_services_sec_A d-flex justify-content-center flex-wrap  ">
+              <i
+                class="fa-solid fa-chalkboard m-4"
+                style="color: #ffffff; font-size: 80px"
+              ></i>
+              <p style="color: #ffffff; font-size: 20px">Online Marketting</p>
+            </div>
+            <div class="grid_services_sec_B"></div>
+          </div>
+          <div class="grid_services_sec col-4 border">
+            <div class="grid_services_sec_A d-flex justify-content-center flex-wrap ">
+              <i
+                class="fa-solid fa-chalkboard m-4"
+                style="color: #ffffff; font-size: 80px"
+              ></i>
+              <p style="color: #ffffff; font-size: 20px">Online Marketting</p>
+            </div>
+            <div class="grid_services_sec_B"></div>
+          </div>
+          <div class="grid_services_sec col-4 border">
+            <div class="grid_services_sec_A d-flex justify-content-center flex-wrap ">
+              <i
+                class="fa-solid fa-chalkboard m-4"
+                style="color: #ffffff; font-size: 80px"
+              ></i>
+              <p style="color: #ffffff; font-size: 20px">Online Marketting</p>
+            </div>
+            <div class="grid_services_sec_B"></div>
+          </div>
+
+
+        </div>
+        <div class="row mt-4 d-flex justify-content-around">
+          <div class="grid_services_sec col-4 border">
+            <div class="grid_services_sec_A d-flex justify-content-center flex-wrap ">
+              <i
+                class="fa-solid fa-chalkboard m-4"
+                style="color: #ffffff; font-size: 80px"
+              ></i>
+              <p style="color: #ffffff; font-size: 20px">Online Marketting</p>
+            </div>
+            <div class="grid_services_sec_B"></div>
+          </div>
+          <div class="grid_services_sec col-4 border">
+            <div class="grid_services_sec_A d-flex justify-content-center flex-wrap ">
+              <i
+                class="fa-solid fa-chalkboard m-4"
+                style="color: #ffffff; font-size: 80px"
+              ></i>
+              <p style="color: #ffffff; font-size: 20px">Online Marketting</p>
+            </div>
+            <div class="grid_services_sec_B"></div>
+          </div>
+          <div class="grid_services_sec col-4 border">
+            <div class="grid_services_sec_A d-flex justify-content-center flex-wrap ">
+              <i
+                class="fa-solid fa-chalkboard m-4"
+                style="color: #ffffff; font-size: 80px"
+              ></i>
+              <p style="color: #ffffff; font-size: 20px">Online Marketting</p>
+            </div>
+            <div class="grid_services_sec_B"></div>
+          </div>
+
+
+        </div>
+       </div>
+        
+       
+      </div>
+    </div>
+    <!-------------------------end SERVICES--------------------- -->
+    <!-------------------------start  creative--------------------- -->
+    <div class="creative_sec">
+      <div class="all_title row d-flex justify-content-center">
+        <h2 class="sec_title  col-12"><span>creative team</span></h2>
+        <p class=" col-7">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor. incididunt ut labore et dolore. Lorem ipsum dolor sit
+          amet, consectetur adipisicing elit, sed do eiusm dipisicing elit, sed
+          do eiusmod.
+        </p>
+      </div>
+    </div>
+
+    <div class="creative_sec_body container">
+      <div class="card-group">
+        <div class="card">
+          <img src="https://digitaltemplatemarket.com/wp/tradex-premium/wp-content/uploads/sites/6/2018/11/team2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p>
+            <h5 class="card-title text-center  type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidth1" aria-expanded="false" aria-controls="collapseWidth1">Mical Peterson</h5>
+            <h6 class=" text-primary text-center   ">Founder</h6>
+          </p>
+          <div >
+            <div class="collapse collapse-horizontal" id="collapseWidth1">
+              <div class="card card-body">
+                <p class="card-text text-center ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+            <!-- <p class="card-text text-center ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+          </div>
+
+      
+          
+          
+        </div>
+        <div class="card">
+          <img src="https://digitaltemplatemarket.com/wp/tradex-premium/wp-content/uploads/sites/6/2018/11/team2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p>
+            <h5 class="card-title text-center  type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidth2" aria-expanded="false" aria-controls="collapseWidth2">Mical Peterson</h5>
+            <h6 class=" text-primary text-center   ">Founder</h6>
+          </p>
+          <div >
+            <div class="collapse collapse-horizontal" id="collapseWidth2">
+              <div class="card card-body">
+                <p class="card-text text-center ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+            <!-- <p class="card-text text-center ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+          </div>
+
+          
+          
+          
+        </div>
+        <div class="card">
+          <img src="https://digitaltemplatemarket.com/wp/tradex-premium/wp-content/uploads/sites/6/2018/11/team2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p>
+            <h5 class="card-title text-center  type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidth3" aria-expanded="false" aria-controls="collapseWidth3">Mical Peterson</h5>
+            <h6 class=" text-primary text-center   ">Founder</h6>
+          </p>
+          <div >
+            <div class="collapse collapse-horizontal" id="collapseWidth3">
+              <div class="card card-body">
+                <p class="card-text text-center ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+            <!-- <p class="card-text text-center ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+          </div>
+
+          
+          
+          
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <img src="https://digitaltemplatemarket.com/wp/tradex-premium/wp-content/uploads/sites/6/2018/11/team2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p>
+            <h5 class="card-title text-center  type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidth4" aria-expanded="false" aria-controls="collapseWidth4">Mical Peterson</h5>
+            <h6 class=" text-primary text-center   ">Founder</h6>
+          </p>
+          <div >
+            <div class="collapse collapse-horizontal" id="collapseWidth4">
+              <div class="card card-body">
+                <p class="card-text text-center ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+            <!-- <p class="card-text text-center ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+          </div>
+
+          
+          
+          
+        </div>
+        <div class="card">
+          <img src="https://digitaltemplatemarket.com/wp/tradex-premium/wp-content/uploads/sites/6/2018/11/team2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p>
+            <h5 class="card-title text-center  type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidth5" aria-expanded="false" aria-controls="collapseWidth5">Mical Peterson</h5>
+            <h6 class=" text-primary text-center   ">Founder</h6>
+          </p>
+          <div >
+            <div class="collapse collapse-horizontal" id="collapseWidth5">
+              <div class="card card-body">
+                <p class="card-text text-center ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+            <!-- <p class="card-text text-center ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+          </div>
+
+          
+          
+          
+        </div>
+        <div class="card">
+          <img src="https://digitaltemplatemarket.com/wp/tradex-premium/wp-content/uploads/sites/6/2018/11/team2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p>
+            <h5 class="card-title text-center  type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidth6" aria-expanded="false" aria-controls="collapseWidth6">Mical Peterson</h5>
+            <h6 class=" text-primary text-center   ">Founder</h6>
+          </p>
+          <div >
+            <div class="collapse collapse-horizontal" id="collapseWidth6">
+              <div class="card card-body">
+                <p class="card-text text-center ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+            <!-- <p class="card-text text-center ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+          </div>
+
+          
+          
+          
+        </div>
+      </div>
+    </div>
+    <!-------------------------end  creative--------------------- -->
+    <!-------------------------start  blog--------------------- -->
+    
+    <section id="sec-1" class="blog_sec  text-center text-dark">
+      <!-- <h1>Latest Blog</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. incididunt ut labore et dolore. Lorem <br> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm dipisicing elit, sed do eiusmod tempor.</p> -->
+      <div class="all_title row d-flex justify-content-center">
+        <h2 class="sec_title  col-12"><span>Latest Blog</span></h2>
+        <p class=" col-7">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor. incididunt ut labore et dolore. Lorem ipsum dolor sit
+          amet, consectetur adipisicing elit, sed do eiusm dipisicing elit, sed
+          do eiusmod.
+        </p>
+  <div class="d-flex">
+    
+    <div class="card mx-auto overflow-hidden my-5 w-33" style="width: 18rem;">
+      <div class="overflow-hidden img"><img src="https://digitaltemplatemarket.com/wp/tradex-premium/wp-content/uploads/sites/6/2018/11/bg1-360x260.jpg" class="card-img-top" alt="..."></div>
+      <div class="card-body p-0 row">
+        <div class="icon col-2 bg-dark p-3 m-1">
+          <a href="#"><i class="fa-brands fa-twitter fa-lg text-light"></i></i></a>
+            <a href="#"><i class="fab fa-facebook-f fa-lg text-light"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus-g fa-lg text-light"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in fa-lg text-light"></i></a>
+            <a href=""><i class="fa-brands fa-tumblr fa-lg text-light"></i></a>
+        </div>
+        <div class="col-9">
+          <h5 class="card-title">Four Ways To Cheer And Plan Your Self Up On Blue</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, rcquisc adipiscing elit. Aenean socada commodo ligauala egets dssdolor....</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="card mx-auto overflow-hidden my-5 w-33" style="width: 18rem;">
+      <div class="overflow-hidden img"><img src="https://digitaltemplatemarket.com/wp/tradex-premium/wp-content/uploads/sites/6/2018/11/bg1-360x260.jpg" class="card-img-top" alt="..."></div>
+      <div class="card-body p-0 row">
+        <div class="icon col-2 bg-dark pt-3 m-1 ">
+          <a href="#"><i class="fa-brands fa-twitter fa-lg text-light"></i></i></a>
+            <a href="#"><i class="fab fa-facebook-f fa-lg text-light"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus-g fa-lg text-light"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in fa-lg text-light"></i></a>
+            <a href=""><i class="fa-brands fa-tumblr fa-lg text-light"></i></a>
+        </div>
+        <div class="col-9">
+          <h5 class="card-title">Four Ways To Cheer And Plan Your Self Up On Blue</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, rcquisc adipiscing elit. Aenean socada commodo ligauala egets dssdolor....</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="card  mx-auto overflow-hidden my-5 w-33" style="width: 18rem;">
+      <div class="overflow-hidden img"><img src="https://digitaltemplatemarket.com/wp/tradex-premium/wp-content/uploads/sites/6/2018/11/bg1-360x260.jpg" class="card-img-top" alt="..."></div>
+      <div class="card-body p-0 row">
+        <div class=" icon col-2 bg-dark p-3 m-1">
+            <a href="#"><i class="fa-brands fa-twitter fa-lg text-light"></i></i></a>
+            <a href="#"><i class="fab fa-facebook-f fa-lg text-light"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus-g fa-lg text-light"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in fa-lg text-light"></i></a>
+            <a href=""><i class="fa-brands fa-tumblr fa-lg text-light"></i></a>
+        </div>
+        <div class="col-9">
+          <h5 class="card-title">Four Ways To Cheer And Plan Your Self Up On Blue</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, rcquisc adipiscing elit. Aenean socada commodo ligauala egets dssdolor....</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+      </div>
+  
+  </div>
+  
+  
+    <!-------------------------end  blog--------------------- -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
